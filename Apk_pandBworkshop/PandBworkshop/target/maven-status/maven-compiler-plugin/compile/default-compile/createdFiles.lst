@@ -1,0 +1,12 @@
+kathirkamam/kiosk/app/repository/CounterRepo.class
+kathirkamam/kiosk/app/model/User.class
+kathirkamam/kiosk/app/model/ResponseReport.class
+kathirkamam/kiosk/app/controller/KioskController.class
+kathirkamam/kiosk/app/util/Gender.class
+kathirkamam/kiosk/app/util/Ethnicity.class
+kathirkamam/kiosk/app/model/LocalAuthority.class
+kathirkamam/kiosk/app/KioskBoot.class
+kathirkamam/kiosk/app/model/Counter.class
+kathirkamam/kiosk/app/repository/UserRepo.class
+kathirkamam/kiosk/app/repository/LocalAuthorityRepo.class
+kathirkamam/kiosk/app/repository/ResponseReportRepo.class

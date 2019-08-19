@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kataragama customer service</title>
+    <meta charset="utf-8">
+    <link href="css/layout.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fontss/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fontss/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="csss/util.css">
+    <link rel="stylesheet" type="text/css" href="csss/main.css">
+
+    <style>
+    input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}</style>
+</head>
+<body id="top">
+<div class="container-login100" style="background-image: url('images/Log In-23.jpg');">
+    <div class="wrap-login100 p-l-70 p-r-70 p-t-20 p-b-30">
+        <form class="login100-form validate-form">
+				<span class="login100-form-title p-b-37">
+				<h4><B>Please Enter The Ref ID<B></h4>
+
+				</span>
+        <script type="text/javascript">
+        function display(form){
+        if (form.password.value=="kathir1001") {
+        		if (form.password.value=="kathir1001")
+                {   location="/home"
+        			} else { alert("Invalid Password")
+        													}
+        								} else {  alert("Invalid Password")
+        										}
+        						}
+        			</script>
+        <body >
+<center>
+
+        <form>
+        <!-- <input class="input100 wrap-input100 validate-input m-b-25" type="text" name="username" /><br><br> -->
+        <input  style="background-color:LightGray;" type="password" placeholder= "enter your ref ID" name="password"/><br><br>
+        <input class="login100-form-btn" type="button" value="Login" onClick="display(this.form)"/>
+
+
+        </form>
+      </center>
+
+            <!-- <div id="divisionId" class="wrap-input100 validate-input m-b-25" data-validate = "Please Enter the Ref ID">
+                <input class="input100" type="password" name="password" placeholder="Enter Ref id">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-login100-form-btn">
+                <button onClick="display(this.form)"class="login100-form-btn">Login</a>
+
+                </button>
+            </div> -->
+
+            <!-- <script type="text/javascript">
+    $("button:#laid").click(function () {
+
+	    var divisionId = $('#divisionId').html($('input:textbox').val());
+		$.ajax({
+                    type:"POST",
+                    url:"/home",
+                    data: divisionId,
+                    success: function (data) {
+                        window.location.href = "/home";
+                    },
+                    error: function (httpRequest, textStatus, errorThrown) {
+                         alert("An Error occurred");
+                     }
+                });
+    });
+</script> -->
+        </form>
+    </div>
+</div>
+
+
+
+<div id="dropDownSelect1"></div>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/animsition/js/animsition.min.js"></script>
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/daterangepicker/moment.min.js"></script>
+<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<script src="vendor/countdowntime/countdowntime.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+    $("button:#laid").click(function () {
+
+	    var divisionId = $('#divisionId').html($('input:textbox').val());
+		$.ajax({
+                    type:"POST",
+                    url:"/home",
+                    data: divisionId,
+
+                    success: function (data) {
+                        window.location.href = "/home";
+                    },
+                    error: function (httpRequest, textStatus, errorThrown) {
+                         alert("An Error occurred");
+                     }
+                });
+    });
+
+</script>
+</body>
+</html>
